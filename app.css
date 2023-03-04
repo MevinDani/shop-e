@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+}
+
+/* NavBar */
+
+.nav-bar {
+    background-color: #FFF0F5;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 20%;
+}
+
+.logo-name {
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+.logo-name:hover {
+    cursor: pointer;
+}
+
+.logo-E {
+    color: rgb(255, 57, 90);
+}
+
+.nav-services {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-services div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.logo-home {
+    padding-left: 80px;
+}
+
+.logo-contact {
+    padding-right: 80px;
+}
+
+.nav-icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-icons div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.nav-search {
+    padding-left: 50px;
+}
+
+.nav-cart {
+    padding-right: 60px;
+}
+
+/* MainLand */
+
+.main-land {
+    background-color: #FFC0CB;
+    width: 95%;
+    height: 420px;
+    border-radius: 20px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-left {
+    width: 65%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 18px;
+    padding-right: 80px;
+    line-height: 36px;
+}
+
+.main-search {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.main-inp {
+    width: 280px;
+    height: 25px;
+}
+
+.search-div {
+    padding-left: 50px;
+}
+
+input[type=text] {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    outline: 0;
+}
+
+
+.main-middle {
+    /* width: 50%; */
+    height: 350px;
+    margin-right: 0px;
+
+}
+
+.middle-img {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.main-right {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 60px; */
+}
+
+.m-right-img {
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.lap,
+.perf {
+    padding-left: 22px;
+}
+
+/* ItemsName */
+
+.items-name {
+    display: flex;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 265px;
+}
+
+.in-left {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    transition: 0.1s ease-in-out;
+}
+
+.in-left div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.in-right {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    transition: 0.1s ease-in-out;
+}
+
+.in-right div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.leftArrow {
+    padding-left: 300px;
+}
+
+.rightArrow {
+    padding-left: 50px;
+}
+
+/* RealItems */
+
+.real-items {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.ri-top {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.items-card {
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+}
+
+.items-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.card-img {
+    width: 280px;
+    height: 320px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 18px;
+}
+
+
+.items-text-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-text {
+    padding-left: 20px;
+    line-height: 23px;
+}
+
+.card-heart {
+    padding-right: 20px;
+}
+
+.vm-button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vm-button button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: rgb(205, 205, 205);
+    border: 1px solid rgb(205, 205, 205);
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.vm-button button:hover {
+    background-color: pink;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* RealShoe */
+
+.real-shoe {
+    display: flex;
+    background-color: #FFC0CB;
+    width: 80%;
+    margin-left: 146px;
+    border-radius: 20px;
+    height: 200px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rs-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    line-height: 10px;
+}
+
+.rs-button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: rgb(255, 85, 114);
+    border: 1px solid rgb(205, 205, 205);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.rs-button:hover {
+    background-color: #fff;
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rs-img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -65px;
+    left: 415px;
+    transition: 0.2s ease-in-out;
+}
+
+.rs-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rs-img3 {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: -70px;
+    left: 666px;
+    transition: 0.2s ease-in-out;
+}
+
+.rs-img3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.shope-e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-left: -82px;
+}
+
+.foot-logo {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.foot-brands {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.foot-brands div:hover {
+    color: rgb(255, 104, 129);
+    cursor: pointer;
+}
+
+.foot-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 35px;
+    margin-bottom: 6px;
+}
+
+.foot-shop div:hover {
+    color: rgb(255, 104, 129);
+    cursor: pointer;
+}
+
+.foot-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.foot-links div:hover {
+    color: rgb(255, 104, 129);
+    cursor: pointer;
+}
+
+.foot-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.foot-contacts div:hover {
+    color: rgb(255, 104, 129);
+    cursor: pointer;
+}
+
+.foot-bold {
+    font-weight: 800;
+}
+
+.foot-light {
+    font-size: 12px;
+}
